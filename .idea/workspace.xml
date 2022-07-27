@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d0c657a-9e59-4204-aa4f-f4d259f5ac7e" name="Default Changelist" comment="Quickest website Change" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/wp-content/themes/astra/header.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/wp-content/themes/astra/footer.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/wp-content/themes/astra/functions.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="2C6SswjNefy1B0RCtQYav46nsC4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo-1" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d0c657a-9e59-4204-aa4f-f4d259f5ac7e" name="Default Changelist" comment="" />
+      <created>1658121751885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658121751885</updated>
+      <workItem from="1658121753434" duration="18537000" />
+      <workItem from="1658202892995" duration="8654000" />
+      <workItem from="1658214660885" duration="9078000" />
+      <workItem from="1658288204558" duration="43000" />
+      <workItem from="1658288253130" duration="1139000" />
+      <workItem from="1658289439694" duration="1710000" />
+      <workItem from="1658291917045" duration="6314000" />
+      <workItem from="1658374557856" duration="667000" />
+      <workItem from="1658461083762" duration="3264000" />
+      <workItem from="1658548084003" duration="8732000" />
+      <workItem from="1658720878762" duration="6547000" />
+      <workItem from="1658807284573" duration="2306000" />
+      <workItem from="1658894916534" duration="5800000" />
+    </task>
+    <task id="LOCAL-00001" summary="Quickest website">
+      <created>1658289810876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658289810876</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Quickest website">
+      <created>1658290289146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658290289146</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Quickest website">
+      <created>1658290539907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658290539907</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Quickest website Cover image">
+      <created>1658579079400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658579079400</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Quickest website Cover image">
+      <created>1658727838684</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658727838684</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Quickest website Cover image">
+      <created>1658751990283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658751990283</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Quickest website Cover image">
+      <created>1658752039483</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658752039483</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Quickest website Change">
+      <created>1658752138192</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658752138192</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Quickest website Change">
+      <created>1658807626501</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658807626501</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Quickest website Change">
+      <created>1658924667214</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658924667214</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Quickest website" />
+    <MESSAGE value="Quickest website Cover image" />
+    <MESSAGE value="Quickest website Change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quickest website Change" />
+  </component>
+</project>
