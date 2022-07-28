@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d0c657a-9e59-4204-aa4f-f4d259f5ac7e" name="Default Changelist" comment="Quickest website Change" />
+    <list default="true" id="0d0c657a-9e59-4204-aa4f-f4d259f5ac7e" name="Default Changelist" comment="Quickest website">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/astra/assets/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/astra/assets/css/main.min.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +70,9 @@
       <workItem from="1658720878762" duration="6547000" />
       <workItem from="1658807284573" duration="2306000" />
       <workItem from="1658894916534" duration="5800000" />
+      <workItem from="1658924800065" duration="510000" />
+      <workItem from="1658980365704" duration="2504000" />
+      <workItem from="1658993162245" duration="1633000" />
     </task>
     <task id="LOCAL-00001" summary="Quickest website">
       <created>1658289810876</created>
