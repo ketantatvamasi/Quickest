@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Define Constants
  */
-define( 'ASTRA_THEME_VERSION', '3.9.0' );
+define( 'ASTRA_THEME_VERSION', '3.9.1' );
 define( 'ASTRA_THEME_SETTINGS', 'astra-settings' );
 define( 'ASTRA_THEME_DIR', trailingslashit( get_template_directory() ) );
 define( 'ASTRA_THEME_URI', trailingslashit( esc_url( get_template_directory_uri() ) ) );
@@ -177,10 +177,10 @@ require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-filters.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-hooks.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
 
+
+/* Adds scripts */
 add_action( 'wp_enqueue_scripts', 'add_scripts' );
 function add_scripts() {
-    wp_enqueue_style('main-style', get_theme_file_uri('/assets/css/main.min.css'), false);
-    wp_enqueue_style('qwl-style', get_theme_file_uri('/assets/css/owl.carousel.min.css'), false);
-    wp_enqueue_script('owl-carousel', get_theme_file_uri( '/assets/js/owl.carousel.js'), array('jquery'));
-    wp_enqueue_script('custom.js', get_theme_file_uri( '/assets/js/custom.js'), array('jquery'));
+    wp_enqueue_script('custom-script', get_theme_file_uri('/assets/js/minified/custom.js'));
+    wp_enqueue_style( 'custom-style', get_theme_file_uri('/assets/css/minified/custom.css'));
 }

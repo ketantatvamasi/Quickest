@@ -1,4 +1,4 @@
-/*! elementor - v3.6.7 - 03-07-2022 */
+/*! elementor - v3.7.1 - 14-08-2022 */
 "use strict";
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["accordion"],{
 
@@ -38,7 +38,7 @@ exports["default"] = Accordion;
 /*!*******************************************************!*\
   !*** ../assets/dev/js/frontend/handlers/base-tabs.js ***!
   \*******************************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 
@@ -46,6 +46,8 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports["default"] = void 0;
+
+__webpack_require__(/*! core-js/modules/es.array.includes.js */ "../node_modules/core-js/modules/es.array.includes.js");
 
 class baseTabs extends elementorModules.frontend.handlers.Base {
   getDefaultSettings() {
@@ -204,7 +206,7 @@ class baseTabs extends elementorModules.frontend.handlers.Base {
         }
       },
       keyup: event => {
-        switch (event.key) {
+        switch (event.code) {
           case 'ArrowLeft':
           case 'ArrowRight':
             this.handleKeyboardNavigation(event);
@@ -259,4 +261,4 @@ exports["default"] = baseTabs;
 /***/ })
 
 }]);
-//# sourceMappingURL=accordion.7411c73941af1c106000.bundle.js.map
+//# sourceMappingURL=accordion.342cf6dd66b8f56ed3e2.bundle.js.map
