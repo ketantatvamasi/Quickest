@@ -22,7 +22,12 @@
 .feature-slider .mobile {
     width: 100%
 }
-
+.section-darkshape-top img{
+    width: 100%;
+}
+.section-darkshape-bottom img{
+    width: 100%;
+}
 .feature-slider .mobile .display-mobile {
     background: url(https://quickestimate.co/wp-content/uploads/2022/07/blank-mobile-screen.png) no-repeat center center;
     height: 733px;
@@ -818,3 +823,9 @@
         display: none
     }
 }
+
+/*@media only screen and (min-width: 1700px) {*/
+/*    .section-darkshape-top{*/
+/*        margin-left: -110px;*/
+/*    }*/
+/*}*/

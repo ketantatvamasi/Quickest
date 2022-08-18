@@ -1,4 +1,4 @@
-/*! elementor - v3.6.7 - 03-07-2022 */
+/*! elementor - v3.7.1 - 14-08-2022 */
 "use strict";
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["video"],{
 
@@ -6,7 +6,7 @@
 /*!***************************************************!*\
   !*** ../assets/dev/js/frontend/handlers/video.js ***!
   \***************************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 
@@ -14,6 +14,8 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports["default"] = void 0;
+
+__webpack_require__(/*! core-js/modules/es.array.includes.js */ "../node_modules/core-js/modules/es.array.includes.js");
 
 class Video extends elementorModules.frontend.handlers.Base {
   getDefaultSettings() {
@@ -55,7 +57,7 @@ class Video extends elementorModules.frontend.handlers.Base {
 
   playVideo() {
     if (this.elements.$video.length) {
-      // this.youtubePlayer exists only for YouTube videos, and its play function is different.
+      // This.youtubePlayer exists only for YouTube videos, and its play function is different.
       if (this.youtubePlayer) {
         this.youtubePlayer.playVideo();
       } else {
@@ -220,4 +222,4 @@ exports["default"] = Video;
 /***/ })
 
 }]);
-//# sourceMappingURL=video.13d70463bc0ae039a644.bundle.js.map
+//# sourceMappingURL=video.633bc52e4366283f5941.bundle.js.map

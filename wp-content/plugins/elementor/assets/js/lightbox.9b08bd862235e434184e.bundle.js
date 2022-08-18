@@ -1,30 +1,5 @@
-/*! elementor - v3.6.7 - 03-07-2022 */
+/*! elementor - v3.7.1 - 14-08-2022 */
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["lightbox"],{
-
-/***/ "../node_modules/@babel/runtime/helpers/defineProperty.js":
-/*!****************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/defineProperty.js ***!
-  \****************************************************************/
-/***/ ((module) => {
-
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
-
-module.exports = _defineProperty, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
 
 /***/ "../assets/dev/js/frontend/utils/icons/e-icons.js":
 /*!********************************************************!*\
@@ -220,6 +195,8 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports["default"] = void 0;
+
+__webpack_require__(/*! core-js/modules/es.array.includes.js */ "../node_modules/core-js/modules/es.array.includes.js");
 
 var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "../node_modules/@babel/runtime/helpers/defineProperty.js"));
 
@@ -485,22 +462,24 @@ module.exports = elementorModules.ViewModule.extend({
         break;
 
       case 'image':
-        const slides = [{
-          image: options.url,
-          index: 0,
-          title: options.title,
-          description: options.description,
-          hash: options.hash
-        }];
-        options.slideshow = {
-          slides,
-          swiper: {
-            loop: false,
-            pagination: false
-          }
-        };
-        self.setSlideshowContent(options.slideshow);
-        break;
+        {
+          const slides = [{
+            image: options.url,
+            index: 0,
+            title: options.title,
+            description: options.description,
+            hash: options.hash
+          }];
+          options.slideshow = {
+            slides,
+            swiper: {
+              loop: false,
+              pagination: false
+            }
+          };
+          self.setSlideshowContent(options.slideshow);
+          break;
+        }
 
       case 'slideshow':
         self.setSlideshowContent(options.slideshow);
@@ -547,7 +526,7 @@ module.exports = elementorModules.ViewModule.extend({
 
   setHTMLContent(html) {
     if (window.elementorCommon) {
-      elementorCommon.helpers.hardDeprecated('elementorFrontend.utils.lightbox.setHTMLContent', '3.1.4');
+      elementorDevTools.deprecation.deprecated('elementorFrontend.utils.lightbox.setHTMLContent', '3.1.4');
     }
 
     this.getModal().setMessage(html);
@@ -1472,7 +1451,32 @@ module.exports = elementorModules.ViewModule.extend({
   }
 })();
 
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/defineProperty.js":
+/*!****************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/defineProperty.js ***!
+  \****************************************************************/
+/***/ ((module) => {
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+module.exports = _defineProperty, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
 /***/ })
 
 }]);
-//# sourceMappingURL=lightbox.64eaa125ca6d6348e7ac.bundle.js.map
+//# sourceMappingURL=lightbox.9b08bd862235e434184e.bundle.js.map

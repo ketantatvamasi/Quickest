@@ -1,12 +1,12 @@
-/*! elementor - v3.6.7 - 03-07-2022 */
+/*! elementor - v3.7.1 - 14-08-2022 */
 "use strict";
-(self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["toggle"],{
+(self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["tabs"],{
 
 /***/ "../assets/dev/js/frontend/handlers/base-tabs.js":
 /*!*******************************************************!*\
   !*** ../assets/dev/js/frontend/handlers/base-tabs.js ***!
   \*******************************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 
@@ -14,6 +14,8 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports["default"] = void 0;
+
+__webpack_require__(/*! core-js/modules/es.array.includes.js */ "../node_modules/core-js/modules/es.array.includes.js");
 
 class baseTabs extends elementorModules.frontend.handlers.Base {
   getDefaultSettings() {
@@ -172,7 +174,7 @@ class baseTabs extends elementorModules.frontend.handlers.Base {
         }
       },
       keyup: event => {
-        switch (event.key) {
+        switch (event.code) {
           case 'ArrowLeft':
           case 'ArrowRight':
             this.handleKeyboardNavigation(event);
@@ -226,10 +228,10 @@ exports["default"] = baseTabs;
 
 /***/ }),
 
-/***/ "../assets/dev/js/frontend/handlers/toggle.js":
-/*!****************************************************!*\
-  !*** ../assets/dev/js/frontend/handlers/toggle.js ***!
-  \****************************************************/
+/***/ "../assets/dev/js/frontend/handlers/tabs.js":
+/*!**************************************************!*\
+  !*** ../assets/dev/js/frontend/handlers/tabs.js ***!
+  \**************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -243,22 +245,19 @@ exports["default"] = void 0;
 
 var _baseTabs = _interopRequireDefault(__webpack_require__(/*! ./base-tabs */ "../assets/dev/js/frontend/handlers/base-tabs.js"));
 
-class Toggle extends _baseTabs.default {
+class Tabs extends _baseTabs.default {
   getDefaultSettings() {
     const defaultSettings = super.getDefaultSettings();
     return { ...defaultSettings,
-      showTabFn: 'slideDown',
-      hideTabFn: 'slideUp',
-      hidePrevious: false,
-      autoExpand: 'editor'
+      toggleSelf: false
     };
   }
 
 }
 
-exports["default"] = Toggle;
+exports["default"] = Tabs;
 
 /***/ })
 
 }]);
-//# sourceMappingURL=toggle.723b9b5593f2a58fd036.bundle.js.map
+//# sourceMappingURL=tabs.785afd5b771f1061821b.bundle.js.map
