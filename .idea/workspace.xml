@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d0c657a-9e59-4204-aa4f-f4d259f5ac7e" name="Default Changelist" comment="Key features add &amp; resposive design">
+    <list default="true" id="0d0c657a-9e59-4204-aa4f-f4d259f5ac7e" name="Default Changelist" comment="Key features resposive design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wpforms/cache/addons.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/wpforms/cache/addons.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wpforms/cache/templates.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/wpforms/cache/templates.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,8 @@
       <workItem from="1660624372994" duration="7899000" />
       <workItem from="1660707483437" duration="17704000" />
       <workItem from="1660797502785" duration="10045000" />
-      <workItem from="1661139744046" duration="6584000" />
+      <workItem from="1661139744046" duration="7172000" />
+      <workItem from="1661312840602" duration="1670000" />
     </task>
     <task id="LOCAL-00001" summary="Quickest website">
       <created>1658289810876</created>
@@ -172,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660825403950</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Key features resposive design">
+      <created>1661171021667</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661171021667</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +203,7 @@
     <MESSAGE value="Quickest website change" />
     <MESSAGE value="Quickest change and Feature bug solved" />
     <MESSAGE value="Key features add &amp; resposive design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Key features add &amp; resposive design" />
+    <MESSAGE value="Key features resposive design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Key features resposive design" />
   </component>
 </project>
